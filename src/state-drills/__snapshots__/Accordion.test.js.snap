@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Accordion functionality only opens on section at a time 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 3
+    </button>
+    <p>
+       
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+       
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`testing Accordion functionality opens a clicked section 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 2
+    </button>
+    <p>
+       
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+       
+    </p>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`testing Accordion functionality render no sections as active by default 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+       
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`testing Accordion functionality renders an empty li when the sections prop is not supplied 1`] = `<ul />`;
